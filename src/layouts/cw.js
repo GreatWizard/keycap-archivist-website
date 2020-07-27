@@ -169,7 +169,6 @@ const Maker = (props) => {
           setModal={setShowModal}
           setInputValue={setSuggestionName}
           onSubmit={submitName}
-          colorwayId={colorway.id}
           inputValue={suggestionName}
         ></Modal>
       )}

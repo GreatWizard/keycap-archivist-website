@@ -5,8 +5,6 @@ const Modal = (props) => (
     <div
       className="
             modal
-            opacity-100
-            ease-out
             justify-center
             items-center
             flex
@@ -21,10 +19,6 @@ const Modal = (props) => (
       <div className="relative w-auto my-6 mx-auto max-w-3xl">
         <div
           className="
-                opacity-0
-                transition-opacity
-                opacity-100
-                ease-out
                 border-0
                 rounded-lg
                 shadow-lg
@@ -112,7 +106,7 @@ const Modal = (props) => (
         </div>
       </div>
     </div>
-    <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+    <div className="modal-background opacity-25 fixed inset-0 z-40 bg-black"></div>
   </>
 );
 
